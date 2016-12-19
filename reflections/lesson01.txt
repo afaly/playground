@@ -1,0 +1,41 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+    Since the bug introduces was mainly conserned about code changes which is almost 80% of ways to get a buggy code. seeing the difference between the working copy and the falty one when the changes is catched as early as possible hince always do unit-testing helps alot in fast detection of area of probable fault and focus the programmer energy in that area.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+    Being able to see what were the changes along the way gives several main penefits:
+	1- opservable progress that helps in updating schedules and providing effechiency reports.
+	2- rolling back to a safe working copy.
+	3- direct id of possible causes of bugs and errors from version to version.
+
+	How easy to id the real cause of a bug in a version is directly proportional to how often a backup is made.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+    PROS:
+		You can play around and test as much as you like before commiting an actual point in history of the document.
+		You will be able to add comments about the changes made in the commited version or else you will be swimming in a sea of unidentifiable files which makes it much difficult almost useless.
+		-- ALWAYS MAKE COMMENTS.
+		
+
+	CONS:
+		You may forget to make a valuable commit through-out a big change in the code-base such that the old version becomes to far back in changes to be usefull.
+		You have to pace yourself and make propper decision on when to make a commit and when to not to make the changes easy to spot -> refere to the direct correlation rule.
+		
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+    I think the main reason VC do that is that almost always the case changes in code involves more than one file for example in adding a new featuer or doing refactoring so having the ability to mark that point in history of the codebase as an entity to mark that change as a whole point not multible is essential to be able to make propper error-free and most imoportant hassle free rollpacks.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Fill in your answer here
+
+How might using version control make you more confident to make changes that could break something?
+
+    Rollpack is as easy as typing rollpack :D
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Me learning Elixir programming language and writing projects with it.
